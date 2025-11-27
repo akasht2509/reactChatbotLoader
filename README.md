@@ -1,3 +1,4 @@
+
 react-chatbar-loader
 
 A lightweight, customizable ChatGPT-style multi-bar skeleton loader for React.
@@ -36,6 +37,8 @@ import { LoaderBars } from "react-chatbar-loader";
 export default function App() {
 return <LoaderBars />;
 }
+
+![Chat Loader Demo](./demo.png)
 
 🎨 Customization Examples
 🔢 Number of bars
@@ -149,6 +152,7 @@ Aakash Toshniwal
 
 Give the project a star ❤️
 It motivates further improvements.
+
 
 🔗 Links
 
