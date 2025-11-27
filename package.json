@@ -1,6 +1,6 @@
 {
   "name": "react-chatbar-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Chat-style multi-bar loader for React (customizable gradients, widths, shimmer & dark mode support).",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
