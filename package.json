@@ -1,0 +1,53 @@
+{
+  "name": "react-chatbar-loader",
+  "version": "1.0.0",
+  "description": "Chat-style multi-bar loader for React (customizable gradients, widths, shimmer & dark mode support).",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "dev": "tsup src/index.ts --watch --format cjs,esm --dts",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "keywords": [
+    "react",
+    "loader",
+    "chat",
+    "typing",
+    "skeleton",
+    "ui",
+    "shimmer",
+    "dark-mode",
+    "animation"
+  ],
+  "author": "Aakash Toshniwal <mail2akash.toshniwal@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akasht2509/reactChatbotLoader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/akasht2509/reactChatbotLoader/issues"
+  },
+  "homepage": "https://github.com/akasht2509/reactChatbotLoader#readme",
+  "devDependencies": {
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  }
+}
